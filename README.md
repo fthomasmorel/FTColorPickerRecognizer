@@ -4,7 +4,7 @@
 
 The goal here is to create a ColorPicker (as an UIView) just like in Snapchat application. Here is an example of what it looks like.
 
-
+![](example.gif)
 
 ## Installation
 
