@@ -10,14 +10,6 @@ import UIKit
 
 class ViewController: UIViewController, FTColorPickerRecognizerDelegate {
 
-    var kPercentToTop:CGFloat       = 0.09
-    var kPercentRange:CGFloat       = 0.025
-    var kPercentToBottom:CGFloat    = 0.2
-    var kPercentToLeft:CGFloat      = 0.35
-    var kPercentToWhite:CGFloat     = 0.07
-    
-    let kColorPicker = UIImage(named:"color_picker")
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         
