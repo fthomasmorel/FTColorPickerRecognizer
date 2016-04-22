@@ -12,6 +12,7 @@
 		F507C7AC1CBA851F00F66E79 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F507C7AA1CBA851F00F66E79 /* Main.storyboard */; };
 		F507C7AE1CBA851F00F66E79 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F507C7AD1CBA851F00F66E79 /* Assets.xcassets */; };
 		F507C7B11CBA851F00F66E79 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F507C7AF1CBA851F00F66E79 /* LaunchScreen.storyboard */; };
+		F5D0EA8B1CC9A11300F01024 /* FTColorPickerRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5D0EA8A1CC9A11300F01024 /* FTColorPickerRecognizer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		F507C7AD1CBA851F00F66E79 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F507C7B01CBA851F00F66E79 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F507C7B21CBA851F00F66E79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5D0EA8A1CC9A11300F01024 /* FTColorPickerRecognizer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FTColorPickerRecognizer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				F507C7AD1CBA851F00F66E79 /* Assets.xcassets */,
 				F507C7AF1CBA851F00F66E79 /* LaunchScreen.storyboard */,
 				F507C7B21CBA851F00F66E79 /* Info.plist */,
+				F5D0EA8A1CC9A11300F01024 /* FTColorPickerRecognizer.swift */,
 			);
 			path = "snapchat-color-picker";
 			sourceTree = "<group>";
@@ -135,6 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F5D0EA8B1CC9A11300F01024 /* FTColorPickerRecognizer.swift in Sources */,
 				F507C7A91CBA851F00F66E79 /* ViewController.swift in Sources */,
 				F507C7A71CBA851F00F66E79 /* AppDelegate.swift in Sources */,
 			);
@@ -286,6 +290,7 @@
 				F507C7B71CBA851F00F66E79 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
